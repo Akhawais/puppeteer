@@ -1,8 +1,8 @@
 {
-  "name": "puppeteer",
+  "name": "puppeteer-core",
   "version": "9.0.0-post",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
-  "main": "./cjs-entry.js",
+  "main": "./cjs-entry-core.js",
   "types": "lib/types.d.ts",
   "repository": "github:puppeteer/puppeteer",
   "engines": {

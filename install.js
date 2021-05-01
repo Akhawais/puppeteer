@@ -30,7 +30,7 @@ async function download() {
   await compileTypeScriptIfRequired();
   // need to ensure TS is compiled before loading the installer
   const {
-    downloadBrowser,
+    // downloadBrowser,
     logPolitely,
   } = require('./lib/cjs/puppeteer/node/install');
 
@@ -80,10 +80,10 @@ async function download() {
     logPolitely(
       '**INFO** Skipping browser download. "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" was set in project config.'
     );
-    return;
+    // return;
   }
 
-  downloadBrowser();
+  // downloadBrowser();
 }
 
 download();
